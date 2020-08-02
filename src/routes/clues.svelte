@@ -71,7 +71,7 @@
         class="rounded-lg md:w-4/5 mx-auto w-full" />
       <h2>#5</h2>
       <img
-        src="./cat.jpg"
+        src="/img/cat.jpg"
         alt="Cat"
         class="rounded-lg md:w-4/5 mx-auto w-full" />
       <h2>#6</h2>
