@@ -16,8 +16,6 @@
 
     <h1 class="text-center">Schedule</h1>
 
-    <h2>Schedule</h2>
-
     <p>
       This is very tight, in that it goes right up to 9, but there are a couple
       areas that can be trimmed if necessary during the call.
