@@ -15,6 +15,9 @@
     background: linear-gradient(to top right, #155799, #159957);
     color: white !important;
   }
+  .schedule {
+    display: none;
+  }
 </style>
 
 <main class="grid justify-center px-4 min-h-screen">
@@ -31,6 +34,12 @@
       rel="preload"
       class="block clues text-white p-4 m-4 text-xl text-center rounded-lg">
       Murder Mystery Clues
+    </a>
+    <a
+      href="/sierra-echo-charlie/schedule"
+      rel="preload"
+      class="block schedule text-white p-4 m-4 text-xl text-center rounded-lg">
+      Murder Mystery Schedule
     </a>
   </article>
 </main>
