@@ -10,7 +10,7 @@
   }
 </style>
 
-<main class="grid justify-center px-4">
+<main class="grid justify-center px-4 min-h-screen">
   <article class="mt-20 mb-20 text-white prose">
     <h1 class="text-center">Guide to Zoom</h1>
     <h2>Renaming</h2>
