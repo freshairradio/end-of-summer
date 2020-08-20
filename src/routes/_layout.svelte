@@ -1,16 +1,16 @@
 <script>
-  let menuOpen = false
-  import { stores } from '@sapper/app'
-  import { fade } from 'svelte/transition'
-  const { preloading, page, session } = stores()
+  let menuOpen = false;
+  import { stores } from "@sapper/app";
+  import { fade } from "svelte/transition";
+  const { preloading, page, session } = stores();
   const navigation = [
-    { label: 'About', url: '/about' },
-    { label: 'Get Involved', url: '/get-involved' },
-    { label: 'Music', url: '/teams/music' },
-    { label: 'Arts', url: '/teams/arts' },
-    { label: 'News', url: '/teams/news' },
-    { label: 'Sports', url: '/teams/sports' }
-  ]
+    { label: "About", url: "/about" },
+    { label: "Get Involved", url: "/get-involved" },
+    { label: "Music", url: "/teams/music" },
+    { label: "Arts", url: "/teams/arts" },
+    { label: "News", url: "/teams/news" },
+    { label: "Sports", url: "/teams/sports" }
+  ];
 </script>
 
 <style>
@@ -19,7 +19,7 @@
   }
   :global(html),
   .gradient {
-    background: linear-gradient(to top right, #0b486b, #f56217);
+    background: linear-gradient(to top right, #16bffd, #cb3066);
     background-repeat: no-repeat;
     background-size: contain;
   }
