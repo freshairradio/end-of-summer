@@ -1,45 +1,34 @@
-<style>
-  main {
-    background: #de6262;
-    background: linear-gradient(to right, #ffb88c, #de6262);
-  }
-  .zoom {
-    background: #6441a5;
+<script>
+  import { time } from '../time'
+  import { onMount } from 'svelte'
+  let img
+  onMount(() => {
+    const handleLoad = (e) => (loaded = true)
+    img.addEventListener('load', handleLoad)
+    img.src = '/img/friday.jpg'
+  })
+  let loaded = false
+</script>
 
-    background: linear-gradient(to top right, #6441a5, #2a0845);
-    color: white !important;
-  }
-  .clues {
-    background: #159957;
-
-    background: linear-gradient(to top right, #155799, #159957);
-    color: white !important;
-  }
-  .schedule {
-    display: none;
-  }
-</style>
-
-<main class="grid justify-center px-4 min-h-screen">
-  <article class="mt-20 mb-20 text-white prose">
-    <h1 class="text-center">Are you looking for...</h1>
-    <a
-      href="/zoom"
-      rel="preload"
-      class="block zoom text-white p-4 m-4 text-xl text-center rounded-lg">
-      Zoom Guide
-    </a>
-    <a
-      href="/clues"
-      rel="preload"
-      class="block clues text-white p-4 m-4 text-xl text-center rounded-lg">
-      Murder Mystery Clues
-    </a>
-    <a
-      href="/sierra-echo-charlie/schedule"
-      rel="preload"
-      class="block schedule text-white p-4 m-4 text-xl text-center rounded-lg">
-      Murder Mystery Schedule
-    </a>
+<div
+  class=" mt-20 mb-20 text-white rounded-lg max-w-sm relative px-2 mx-auto
+  transition-opacity">
+  <article
+    class="{loaded ? 'opacity-100' : 'opacity-0'} duration-200
+    transition-opacity text-white bg-gray-900 rounded-lg relative h-full">
+    <img
+      bind:this={img}
+      alt="Freshair Fridays"
+      class="rounded-t-lg max-w-full" />
+    <h1 class="text-center text-white text-3xl mt-4 font-hairline max-w-full ">
+      Going live {$time}
+    </h1>
+    <p class=" pb-4 p-2 px-4 text-lg font-thin">
+      We're taking a short break from our regular broadcast schedule to bring
+      you Freshair Fridays, jam packed with student radio every Friday from 2pm!
+    </p>
+    <div
+      class="absolute bottom-0 p-2 px-4 w-full left-0 text-right text-4xl
+      font-hairline grid grid-flow-col grid-cols-6 items-center" />
   </article>
-</main>
+</div>

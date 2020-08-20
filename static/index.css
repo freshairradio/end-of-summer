@@ -874,12 +874,12 @@ video {
 }
 
 .prose {
-  color: #374151;
+  color: #fff;
   max-width: 65ch;
 }
 
 .prose [class~="lead"] {
-  color: #4b5563;
+  color: #4a5568;
   font-size: 1.25em;
   line-height: 1.6;
   margin-top: 1.2em;
@@ -887,13 +887,12 @@ video {
 }
 
 .prose a {
-  color: #5850ec;
-  text-decoration: none;
-  font-weight: 600;
+  color: #1a202c;
+  text-decoration: underline;
 }
 
 .prose strong {
-  color: #161e2e;
+  color: #1a202c;
   font-weight: 600;
 }
 
@@ -913,7 +912,7 @@ video {
   content: counter(list-counter) ".";
   position: absolute;
   font-weight: 400;
-  color: #6b7280;
+  color: #718096;
 }
 
 .prose ul > li {
@@ -924,7 +923,7 @@ video {
 .prose ul > li::before {
   content: "";
   position: absolute;
-  background-color: #d2d6dc;
+  background-color: #cbd5e0;
   border-radius: 50%;
   width: 0.375em;
   height: 0.375em;
@@ -933,7 +932,7 @@ video {
 }
 
 .prose hr {
-  border-color: #e5e7eb;
+  border-color: #e2e8f0;
   border-top-width: 1px;
   margin-top: 3em;
   margin-bottom: 3em;
@@ -942,9 +941,9 @@ video {
 .prose blockquote {
   font-weight: 500;
   font-style: italic;
-  color: #161e2e;
+  color: #1a202c;
   border-left-width: 0.25rem;
-  border-left-color: #e5e7eb;
+  border-left-color: #e2e8f0;
   quotes: "\201C""\201D""\2018""\2019";
   margin-top: 1.6em;
   margin-bottom: 1.6em;
@@ -995,14 +994,14 @@ video {
 }
 
 .prose figure figcaption {
-  color: #6b7280;
+  color: #718096;
   font-size: 0.875em;
   line-height: 1.4285714;
   margin-top: 0.8571429em;
 }
 
 .prose code {
-  color: #161e2e;
+  color: #1a202c;
   font-weight: 600;
   font-size: 0.875em;
 }
@@ -1016,8 +1015,8 @@ video {
 }
 
 .prose pre {
-  color: #e5e7eb;
-  background-color: #252f3f;
+  color: #e2e8f0;
+  background-color: #2d3748;
   overflow-x: auto;
   font-size: 0.875em;
   line-height: 1.7142857;
@@ -1061,10 +1060,10 @@ video {
 }
 
 .prose thead {
-  color: #161e2e;
+  color: #1a202c;
   font-weight: 600;
   border-bottom-width: 1px;
-  border-bottom-color: #d2d6dc;
+  border-bottom-color: #cbd5e0;
 }
 
 .prose thead th {
@@ -1076,7 +1075,7 @@ video {
 
 .prose tbody tr {
   border-bottom-width: 1px;
-  border-bottom-color: #e5e7eb;
+  border-bottom-color: #e2e8f0;
 }
 
 .prose tbody tr:last-child {
@@ -1207,10 +1206,6 @@ video {
 
 .prose > :last-child {
   margin-bottom: 0;
-}
-
-.prose h1, .prose h2, .prose h3, .prose h4 {
-  color: #161e2e;
 }
 
 .prose-sm {
@@ -2106,12 +2101,12 @@ video {
 }
 
 .prose {
-  color: #374151;
+  color: #fff;
   max-width: 65ch;
 }
 
 .prose [class~="lead"] {
-  color: #4b5563;
+  color: #4a5568;
   font-size: 1.25em;
   line-height: 1.6;
   margin-top: 1.2em;
@@ -2119,13 +2114,12 @@ video {
 }
 
 .prose a {
-  color: #5850ec;
-  text-decoration: none;
-  font-weight: 600;
+  color: #1a202c;
+  text-decoration: underline;
 }
 
 .prose strong {
-  color: #161e2e;
+  color: #1a202c;
   font-weight: 600;
 }
 
@@ -2145,7 +2139,7 @@ video {
   content: counter(list-counter) ".";
   position: absolute;
   font-weight: 400;
-  color: #6b7280;
+  color: #718096;
 }
 
 .prose ul > li {
@@ -2156,7 +2150,7 @@ video {
 .prose ul > li::before {
   content: "";
   position: absolute;
-  background-color: #d2d6dc;
+  background-color: #cbd5e0;
   border-radius: 50%;
   width: 0.375em;
   height: 0.375em;
@@ -2165,7 +2159,7 @@ video {
 }
 
 .prose hr {
-  border-color: #e5e7eb;
+  border-color: #e2e8f0;
   border-top-width: 1px;
   margin-top: 3em;
   margin-bottom: 3em;
@@ -2174,9 +2168,9 @@ video {
 .prose blockquote {
   font-weight: 500;
   font-style: italic;
-  color: #161e2e;
+  color: #1a202c;
   border-left-width: 0.25rem;
-  border-left-color: #e5e7eb;
+  border-left-color: #e2e8f0;
   quotes: "\201C""\201D""\2018""\2019";
   margin-top: 1.6em;
   margin-bottom: 1.6em;
@@ -2227,14 +2221,14 @@ video {
 }
 
 .prose figure figcaption {
-  color: #6b7280;
+  color: #718096;
   font-size: 0.875em;
   line-height: 1.4285714;
   margin-top: 0.8571429em;
 }
 
 .prose code {
-  color: #161e2e;
+  color: #1a202c;
   font-weight: 600;
   font-size: 0.875em;
 }
@@ -2248,8 +2242,8 @@ video {
 }
 
 .prose pre {
-  color: #e5e7eb;
-  background-color: #252f3f;
+  color: #e2e8f0;
+  background-color: #2d3748;
   overflow-x: auto;
   font-size: 0.875em;
   line-height: 1.7142857;
@@ -2293,10 +2287,10 @@ video {
 }
 
 .prose thead {
-  color: #161e2e;
+  color: #1a202c;
   font-weight: 600;
   border-bottom-width: 1px;
-  border-bottom-color: #d2d6dc;
+  border-bottom-color: #cbd5e0;
 }
 
 .prose thead th {
@@ -2308,7 +2302,7 @@ video {
 
 .prose tbody tr {
   border-bottom-width: 1px;
-  border-bottom-color: #e5e7eb;
+  border-bottom-color: #e2e8f0;
 }
 
 .prose tbody tr:last-child {
@@ -2439,10 +2433,6 @@ video {
 
 .prose > :last-child {
   margin-bottom: 0;
-}
-
-.prose h1, .prose h2, .prose h3, .prose h4 {
-  color: #161e2e;
 }
 
 .prose-sm {
@@ -9769,6 +9759,10 @@ video {
   --bg-opacity: 0.75;
 }
 
+.bg-opacity-85 {
+  --bg-opacity: 0.85;
+}
+
 .bg-opacity-100 {
   --bg-opacity: 1;
 }
@@ -9789,6 +9783,10 @@ video {
   --bg-opacity: 0.75;
 }
 
+.hover\:bg-opacity-85:hover {
+  --bg-opacity: 0.85;
+}
+
 .hover\:bg-opacity-100:hover {
   --bg-opacity: 1;
 }
@@ -9807,6 +9805,10 @@ video {
 
 .focus\:bg-opacity-75:focus {
   --bg-opacity: 0.75;
+}
+
+.focus\:bg-opacity-85:focus {
+  --bg-opacity: 0.85;
 }
 
 .focus\:bg-opacity-100:focus {
@@ -39791,12 +39793,12 @@ video {
   }
 
   .sm\:prose {
-    color: #374151;
+    color: #fff;
     max-width: 65ch;
   }
 
   .sm\:prose [class~="lead"] {
-    color: #4b5563;
+    color: #4a5568;
     font-size: 1.25em;
     line-height: 1.6;
     margin-top: 1.2em;
@@ -39804,13 +39806,12 @@ video {
   }
 
   .sm\:prose a {
-    color: #5850ec;
-    text-decoration: none;
-    font-weight: 600;
+    color: #1a202c;
+    text-decoration: underline;
   }
 
   .sm\:prose strong {
-    color: #161e2e;
+    color: #1a202c;
     font-weight: 600;
   }
 
@@ -39830,7 +39831,7 @@ video {
     content: counter(list-counter) ".";
     position: absolute;
     font-weight: 400;
-    color: #6b7280;
+    color: #718096;
   }
 
   .sm\:prose ul > li {
@@ -39841,7 +39842,7 @@ video {
   .sm\:prose ul > li::before {
     content: "";
     position: absolute;
-    background-color: #d2d6dc;
+    background-color: #cbd5e0;
     border-radius: 50%;
     width: 0.375em;
     height: 0.375em;
@@ -39850,7 +39851,7 @@ video {
   }
 
   .sm\:prose hr {
-    border-color: #e5e7eb;
+    border-color: #e2e8f0;
     border-top-width: 1px;
     margin-top: 3em;
     margin-bottom: 3em;
@@ -39859,9 +39860,9 @@ video {
   .sm\:prose blockquote {
     font-weight: 500;
     font-style: italic;
-    color: #161e2e;
+    color: #1a202c;
     border-left-width: 0.25rem;
-    border-left-color: #e5e7eb;
+    border-left-color: #e2e8f0;
     quotes: "\201C""\201D""\2018""\2019";
     margin-top: 1.6em;
     margin-bottom: 1.6em;
@@ -39912,14 +39913,14 @@ video {
   }
 
   .sm\:prose figure figcaption {
-    color: #6b7280;
+    color: #718096;
     font-size: 0.875em;
     line-height: 1.4285714;
     margin-top: 0.8571429em;
   }
 
   .sm\:prose code {
-    color: #161e2e;
+    color: #1a202c;
     font-weight: 600;
     font-size: 0.875em;
   }
@@ -39933,8 +39934,8 @@ video {
   }
 
   .sm\:prose pre {
-    color: #e5e7eb;
-    background-color: #252f3f;
+    color: #e2e8f0;
+    background-color: #2d3748;
     overflow-x: auto;
     font-size: 0.875em;
     line-height: 1.7142857;
@@ -39978,10 +39979,10 @@ video {
   }
 
   .sm\:prose thead {
-    color: #161e2e;
+    color: #1a202c;
     font-weight: 600;
     border-bottom-width: 1px;
-    border-bottom-color: #d2d6dc;
+    border-bottom-color: #cbd5e0;
   }
 
   .sm\:prose thead th {
@@ -39993,7 +39994,7 @@ video {
 
   .sm\:prose tbody tr {
     border-bottom-width: 1px;
-    border-bottom-color: #e5e7eb;
+    border-bottom-color: #e2e8f0;
   }
 
   .sm\:prose tbody tr:last-child {
@@ -40124,10 +40125,6 @@ video {
 
   .sm\:prose > :last-child {
     margin-bottom: 0;
-  }
-
-  .sm\:prose h1, .sm\:prose h2, .sm\:prose h3, .sm\:prose h4 {
-    color: #161e2e;
   }
 
   .sm\:prose-sm {
@@ -41023,12 +41020,12 @@ video {
   }
 
   .sm\:prose {
-    color: #374151;
+    color: #fff;
     max-width: 65ch;
   }
 
   .sm\:prose [class~="lead"] {
-    color: #4b5563;
+    color: #4a5568;
     font-size: 1.25em;
     line-height: 1.6;
     margin-top: 1.2em;
@@ -41036,13 +41033,12 @@ video {
   }
 
   .sm\:prose a {
-    color: #5850ec;
-    text-decoration: none;
-    font-weight: 600;
+    color: #1a202c;
+    text-decoration: underline;
   }
 
   .sm\:prose strong {
-    color: #161e2e;
+    color: #1a202c;
     font-weight: 600;
   }
 
@@ -41062,7 +41058,7 @@ video {
     content: counter(list-counter) ".";
     position: absolute;
     font-weight: 400;
-    color: #6b7280;
+    color: #718096;
   }
 
   .sm\:prose ul > li {
@@ -41073,7 +41069,7 @@ video {
   .sm\:prose ul > li::before {
     content: "";
     position: absolute;
-    background-color: #d2d6dc;
+    background-color: #cbd5e0;
     border-radius: 50%;
     width: 0.375em;
     height: 0.375em;
@@ -41082,7 +41078,7 @@ video {
   }
 
   .sm\:prose hr {
-    border-color: #e5e7eb;
+    border-color: #e2e8f0;
     border-top-width: 1px;
     margin-top: 3em;
     margin-bottom: 3em;
@@ -41091,9 +41087,9 @@ video {
   .sm\:prose blockquote {
     font-weight: 500;
     font-style: italic;
-    color: #161e2e;
+    color: #1a202c;
     border-left-width: 0.25rem;
-    border-left-color: #e5e7eb;
+    border-left-color: #e2e8f0;
     quotes: "\201C""\201D""\2018""\2019";
     margin-top: 1.6em;
     margin-bottom: 1.6em;
@@ -41144,14 +41140,14 @@ video {
   }
 
   .sm\:prose figure figcaption {
-    color: #6b7280;
+    color: #718096;
     font-size: 0.875em;
     line-height: 1.4285714;
     margin-top: 0.8571429em;
   }
 
   .sm\:prose code {
-    color: #161e2e;
+    color: #1a202c;
     font-weight: 600;
     font-size: 0.875em;
   }
@@ -41165,8 +41161,8 @@ video {
   }
 
   .sm\:prose pre {
-    color: #e5e7eb;
-    background-color: #252f3f;
+    color: #e2e8f0;
+    background-color: #2d3748;
     overflow-x: auto;
     font-size: 0.875em;
     line-height: 1.7142857;
@@ -41210,10 +41206,10 @@ video {
   }
 
   .sm\:prose thead {
-    color: #161e2e;
+    color: #1a202c;
     font-weight: 600;
     border-bottom-width: 1px;
-    border-bottom-color: #d2d6dc;
+    border-bottom-color: #cbd5e0;
   }
 
   .sm\:prose thead th {
@@ -41225,7 +41221,7 @@ video {
 
   .sm\:prose tbody tr {
     border-bottom-width: 1px;
-    border-bottom-color: #e5e7eb;
+    border-bottom-color: #e2e8f0;
   }
 
   .sm\:prose tbody tr:last-child {
@@ -41356,10 +41352,6 @@ video {
 
   .sm\:prose > :last-child {
     margin-bottom: 0;
-  }
-
-  .sm\:prose h1, .sm\:prose h2, .sm\:prose h3, .sm\:prose h4 {
-    color: #161e2e;
   }
 
   .sm\:prose-sm {
@@ -48686,6 +48678,10 @@ video {
     --bg-opacity: 0.75;
   }
 
+  .sm\:bg-opacity-85 {
+    --bg-opacity: 0.85;
+  }
+
   .sm\:bg-opacity-100 {
     --bg-opacity: 1;
   }
@@ -48706,6 +48702,10 @@ video {
     --bg-opacity: 0.75;
   }
 
+  .sm\:hover\:bg-opacity-85:hover {
+    --bg-opacity: 0.85;
+  }
+
   .sm\:hover\:bg-opacity-100:hover {
     --bg-opacity: 1;
   }
@@ -48724,6 +48724,10 @@ video {
 
   .sm\:focus\:bg-opacity-75:focus {
     --bg-opacity: 0.75;
+  }
+
+  .sm\:focus\:bg-opacity-85:focus {
+    --bg-opacity: 0.85;
   }
 
   .sm\:focus\:bg-opacity-100:focus {
@@ -78617,12 +78621,12 @@ video {
   }
 
   .md\:prose {
-    color: #374151;
+    color: #fff;
     max-width: 65ch;
   }
 
   .md\:prose [class~="lead"] {
-    color: #4b5563;
+    color: #4a5568;
     font-size: 1.25em;
     line-height: 1.6;
     margin-top: 1.2em;
@@ -78630,13 +78634,12 @@ video {
   }
 
   .md\:prose a {
-    color: #5850ec;
-    text-decoration: none;
-    font-weight: 600;
+    color: #1a202c;
+    text-decoration: underline;
   }
 
   .md\:prose strong {
-    color: #161e2e;
+    color: #1a202c;
     font-weight: 600;
   }
 
@@ -78656,7 +78659,7 @@ video {
     content: counter(list-counter) ".";
     position: absolute;
     font-weight: 400;
-    color: #6b7280;
+    color: #718096;
   }
 
   .md\:prose ul > li {
@@ -78667,7 +78670,7 @@ video {
   .md\:prose ul > li::before {
     content: "";
     position: absolute;
-    background-color: #d2d6dc;
+    background-color: #cbd5e0;
     border-radius: 50%;
     width: 0.375em;
     height: 0.375em;
@@ -78676,7 +78679,7 @@ video {
   }
 
   .md\:prose hr {
-    border-color: #e5e7eb;
+    border-color: #e2e8f0;
     border-top-width: 1px;
     margin-top: 3em;
     margin-bottom: 3em;
@@ -78685,9 +78688,9 @@ video {
   .md\:prose blockquote {
     font-weight: 500;
     font-style: italic;
-    color: #161e2e;
+    color: #1a202c;
     border-left-width: 0.25rem;
-    border-left-color: #e5e7eb;
+    border-left-color: #e2e8f0;
     quotes: "\201C""\201D""\2018""\2019";
     margin-top: 1.6em;
     margin-bottom: 1.6em;
@@ -78738,14 +78741,14 @@ video {
   }
 
   .md\:prose figure figcaption {
-    color: #6b7280;
+    color: #718096;
     font-size: 0.875em;
     line-height: 1.4285714;
     margin-top: 0.8571429em;
   }
 
   .md\:prose code {
-    color: #161e2e;
+    color: #1a202c;
     font-weight: 600;
     font-size: 0.875em;
   }
@@ -78759,8 +78762,8 @@ video {
   }
 
   .md\:prose pre {
-    color: #e5e7eb;
-    background-color: #252f3f;
+    color: #e2e8f0;
+    background-color: #2d3748;
     overflow-x: auto;
     font-size: 0.875em;
     line-height: 1.7142857;
@@ -78804,10 +78807,10 @@ video {
   }
 
   .md\:prose thead {
-    color: #161e2e;
+    color: #1a202c;
     font-weight: 600;
     border-bottom-width: 1px;
-    border-bottom-color: #d2d6dc;
+    border-bottom-color: #cbd5e0;
   }
 
   .md\:prose thead th {
@@ -78819,7 +78822,7 @@ video {
 
   .md\:prose tbody tr {
     border-bottom-width: 1px;
-    border-bottom-color: #e5e7eb;
+    border-bottom-color: #e2e8f0;
   }
 
   .md\:prose tbody tr:last-child {
@@ -78950,10 +78953,6 @@ video {
 
   .md\:prose > :last-child {
     margin-bottom: 0;
-  }
-
-  .md\:prose h1, .md\:prose h2, .md\:prose h3, .md\:prose h4 {
-    color: #161e2e;
   }
 
   .md\:prose-sm {
@@ -79849,12 +79848,12 @@ video {
   }
 
   .md\:prose {
-    color: #374151;
+    color: #fff;
     max-width: 65ch;
   }
 
   .md\:prose [class~="lead"] {
-    color: #4b5563;
+    color: #4a5568;
     font-size: 1.25em;
     line-height: 1.6;
     margin-top: 1.2em;
@@ -79862,13 +79861,12 @@ video {
   }
 
   .md\:prose a {
-    color: #5850ec;
-    text-decoration: none;
-    font-weight: 600;
+    color: #1a202c;
+    text-decoration: underline;
   }
 
   .md\:prose strong {
-    color: #161e2e;
+    color: #1a202c;
     font-weight: 600;
   }
 
@@ -79888,7 +79886,7 @@ video {
     content: counter(list-counter) ".";
     position: absolute;
     font-weight: 400;
-    color: #6b7280;
+    color: #718096;
   }
 
   .md\:prose ul > li {
@@ -79899,7 +79897,7 @@ video {
   .md\:prose ul > li::before {
     content: "";
     position: absolute;
-    background-color: #d2d6dc;
+    background-color: #cbd5e0;
     border-radius: 50%;
     width: 0.375em;
     height: 0.375em;
@@ -79908,7 +79906,7 @@ video {
   }
 
   .md\:prose hr {
-    border-color: #e5e7eb;
+    border-color: #e2e8f0;
     border-top-width: 1px;
     margin-top: 3em;
     margin-bottom: 3em;
@@ -79917,9 +79915,9 @@ video {
   .md\:prose blockquote {
     font-weight: 500;
     font-style: italic;
-    color: #161e2e;
+    color: #1a202c;
     border-left-width: 0.25rem;
-    border-left-color: #e5e7eb;
+    border-left-color: #e2e8f0;
     quotes: "\201C""\201D""\2018""\2019";
     margin-top: 1.6em;
     margin-bottom: 1.6em;
@@ -79970,14 +79968,14 @@ video {
   }
 
   .md\:prose figure figcaption {
-    color: #6b7280;
+    color: #718096;
     font-size: 0.875em;
     line-height: 1.4285714;
     margin-top: 0.8571429em;
   }
 
   .md\:prose code {
-    color: #161e2e;
+    color: #1a202c;
     font-weight: 600;
     font-size: 0.875em;
   }
@@ -79991,8 +79989,8 @@ video {
   }
 
   .md\:prose pre {
-    color: #e5e7eb;
-    background-color: #252f3f;
+    color: #e2e8f0;
+    background-color: #2d3748;
     overflow-x: auto;
     font-size: 0.875em;
     line-height: 1.7142857;
@@ -80036,10 +80034,10 @@ video {
   }
 
   .md\:prose thead {
-    color: #161e2e;
+    color: #1a202c;
     font-weight: 600;
     border-bottom-width: 1px;
-    border-bottom-color: #d2d6dc;
+    border-bottom-color: #cbd5e0;
   }
 
   .md\:prose thead th {
@@ -80051,7 +80049,7 @@ video {
 
   .md\:prose tbody tr {
     border-bottom-width: 1px;
-    border-bottom-color: #e5e7eb;
+    border-bottom-color: #e2e8f0;
   }
 
   .md\:prose tbody tr:last-child {
@@ -80182,10 +80180,6 @@ video {
 
   .md\:prose > :last-child {
     margin-bottom: 0;
-  }
-
-  .md\:prose h1, .md\:prose h2, .md\:prose h3, .md\:prose h4 {
-    color: #161e2e;
   }
 
   .md\:prose-sm {
@@ -87512,6 +87506,10 @@ video {
     --bg-opacity: 0.75;
   }
 
+  .md\:bg-opacity-85 {
+    --bg-opacity: 0.85;
+  }
+
   .md\:bg-opacity-100 {
     --bg-opacity: 1;
   }
@@ -87532,6 +87530,10 @@ video {
     --bg-opacity: 0.75;
   }
 
+  .md\:hover\:bg-opacity-85:hover {
+    --bg-opacity: 0.85;
+  }
+
   .md\:hover\:bg-opacity-100:hover {
     --bg-opacity: 1;
   }
@@ -87550,6 +87552,10 @@ video {
 
   .md\:focus\:bg-opacity-75:focus {
     --bg-opacity: 0.75;
+  }
+
+  .md\:focus\:bg-opacity-85:focus {
+    --bg-opacity: 0.85;
   }
 
   .md\:focus\:bg-opacity-100:focus {
@@ -117443,12 +117449,12 @@ video {
   }
 
   .lg\:prose {
-    color: #374151;
+    color: #fff;
     max-width: 65ch;
   }
 
   .lg\:prose [class~="lead"] {
-    color: #4b5563;
+    color: #4a5568;
     font-size: 1.25em;
     line-height: 1.6;
     margin-top: 1.2em;
@@ -117456,13 +117462,12 @@ video {
   }
 
   .lg\:prose a {
-    color: #5850ec;
-    text-decoration: none;
-    font-weight: 600;
+    color: #1a202c;
+    text-decoration: underline;
   }
 
   .lg\:prose strong {
-    color: #161e2e;
+    color: #1a202c;
     font-weight: 600;
   }
 
@@ -117482,7 +117487,7 @@ video {
     content: counter(list-counter) ".";
     position: absolute;
     font-weight: 400;
-    color: #6b7280;
+    color: #718096;
   }
 
   .lg\:prose ul > li {
@@ -117493,7 +117498,7 @@ video {
   .lg\:prose ul > li::before {
     content: "";
     position: absolute;
-    background-color: #d2d6dc;
+    background-color: #cbd5e0;
     border-radius: 50%;
     width: 0.375em;
     height: 0.375em;
@@ -117502,7 +117507,7 @@ video {
   }
 
   .lg\:prose hr {
-    border-color: #e5e7eb;
+    border-color: #e2e8f0;
     border-top-width: 1px;
     margin-top: 3em;
     margin-bottom: 3em;
@@ -117511,9 +117516,9 @@ video {
   .lg\:prose blockquote {
     font-weight: 500;
     font-style: italic;
-    color: #161e2e;
+    color: #1a202c;
     border-left-width: 0.25rem;
-    border-left-color: #e5e7eb;
+    border-left-color: #e2e8f0;
     quotes: "\201C""\201D""\2018""\2019";
     margin-top: 1.6em;
     margin-bottom: 1.6em;
@@ -117564,14 +117569,14 @@ video {
   }
 
   .lg\:prose figure figcaption {
-    color: #6b7280;
+    color: #718096;
     font-size: 0.875em;
     line-height: 1.4285714;
     margin-top: 0.8571429em;
   }
 
   .lg\:prose code {
-    color: #161e2e;
+    color: #1a202c;
     font-weight: 600;
     font-size: 0.875em;
   }
@@ -117585,8 +117590,8 @@ video {
   }
 
   .lg\:prose pre {
-    color: #e5e7eb;
-    background-color: #252f3f;
+    color: #e2e8f0;
+    background-color: #2d3748;
     overflow-x: auto;
     font-size: 0.875em;
     line-height: 1.7142857;
@@ -117630,10 +117635,10 @@ video {
   }
 
   .lg\:prose thead {
-    color: #161e2e;
+    color: #1a202c;
     font-weight: 600;
     border-bottom-width: 1px;
-    border-bottom-color: #d2d6dc;
+    border-bottom-color: #cbd5e0;
   }
 
   .lg\:prose thead th {
@@ -117645,7 +117650,7 @@ video {
 
   .lg\:prose tbody tr {
     border-bottom-width: 1px;
-    border-bottom-color: #e5e7eb;
+    border-bottom-color: #e2e8f0;
   }
 
   .lg\:prose tbody tr:last-child {
@@ -117776,10 +117781,6 @@ video {
 
   .lg\:prose > :last-child {
     margin-bottom: 0;
-  }
-
-  .lg\:prose h1, .lg\:prose h2, .lg\:prose h3, .lg\:prose h4 {
-    color: #161e2e;
   }
 
   .lg\:prose-sm {
@@ -118675,12 +118676,12 @@ video {
   }
 
   .lg\:prose {
-    color: #374151;
+    color: #fff;
     max-width: 65ch;
   }
 
   .lg\:prose [class~="lead"] {
-    color: #4b5563;
+    color: #4a5568;
     font-size: 1.25em;
     line-height: 1.6;
     margin-top: 1.2em;
@@ -118688,13 +118689,12 @@ video {
   }
 
   .lg\:prose a {
-    color: #5850ec;
-    text-decoration: none;
-    font-weight: 600;
+    color: #1a202c;
+    text-decoration: underline;
   }
 
   .lg\:prose strong {
-    color: #161e2e;
+    color: #1a202c;
     font-weight: 600;
   }
 
@@ -118714,7 +118714,7 @@ video {
     content: counter(list-counter) ".";
     position: absolute;
     font-weight: 400;
-    color: #6b7280;
+    color: #718096;
   }
 
   .lg\:prose ul > li {
@@ -118725,7 +118725,7 @@ video {
   .lg\:prose ul > li::before {
     content: "";
     position: absolute;
-    background-color: #d2d6dc;
+    background-color: #cbd5e0;
     border-radius: 50%;
     width: 0.375em;
     height: 0.375em;
@@ -118734,7 +118734,7 @@ video {
   }
 
   .lg\:prose hr {
-    border-color: #e5e7eb;
+    border-color: #e2e8f0;
     border-top-width: 1px;
     margin-top: 3em;
     margin-bottom: 3em;
@@ -118743,9 +118743,9 @@ video {
   .lg\:prose blockquote {
     font-weight: 500;
     font-style: italic;
-    color: #161e2e;
+    color: #1a202c;
     border-left-width: 0.25rem;
-    border-left-color: #e5e7eb;
+    border-left-color: #e2e8f0;
     quotes: "\201C""\201D""\2018""\2019";
     margin-top: 1.6em;
     margin-bottom: 1.6em;
@@ -118796,14 +118796,14 @@ video {
   }
 
   .lg\:prose figure figcaption {
-    color: #6b7280;
+    color: #718096;
     font-size: 0.875em;
     line-height: 1.4285714;
     margin-top: 0.8571429em;
   }
 
   .lg\:prose code {
-    color: #161e2e;
+    color: #1a202c;
     font-weight: 600;
     font-size: 0.875em;
   }
@@ -118817,8 +118817,8 @@ video {
   }
 
   .lg\:prose pre {
-    color: #e5e7eb;
-    background-color: #252f3f;
+    color: #e2e8f0;
+    background-color: #2d3748;
     overflow-x: auto;
     font-size: 0.875em;
     line-height: 1.7142857;
@@ -118862,10 +118862,10 @@ video {
   }
 
   .lg\:prose thead {
-    color: #161e2e;
+    color: #1a202c;
     font-weight: 600;
     border-bottom-width: 1px;
-    border-bottom-color: #d2d6dc;
+    border-bottom-color: #cbd5e0;
   }
 
   .lg\:prose thead th {
@@ -118877,7 +118877,7 @@ video {
 
   .lg\:prose tbody tr {
     border-bottom-width: 1px;
-    border-bottom-color: #e5e7eb;
+    border-bottom-color: #e2e8f0;
   }
 
   .lg\:prose tbody tr:last-child {
@@ -119008,10 +119008,6 @@ video {
 
   .lg\:prose > :last-child {
     margin-bottom: 0;
-  }
-
-  .lg\:prose h1, .lg\:prose h2, .lg\:prose h3, .lg\:prose h4 {
-    color: #161e2e;
   }
 
   .lg\:prose-sm {
@@ -126338,6 +126334,10 @@ video {
     --bg-opacity: 0.75;
   }
 
+  .lg\:bg-opacity-85 {
+    --bg-opacity: 0.85;
+  }
+
   .lg\:bg-opacity-100 {
     --bg-opacity: 1;
   }
@@ -126358,6 +126358,10 @@ video {
     --bg-opacity: 0.75;
   }
 
+  .lg\:hover\:bg-opacity-85:hover {
+    --bg-opacity: 0.85;
+  }
+
   .lg\:hover\:bg-opacity-100:hover {
     --bg-opacity: 1;
   }
@@ -126376,6 +126380,10 @@ video {
 
   .lg\:focus\:bg-opacity-75:focus {
     --bg-opacity: 0.75;
+  }
+
+  .lg\:focus\:bg-opacity-85:focus {
+    --bg-opacity: 0.85;
   }
 
   .lg\:focus\:bg-opacity-100:focus {
@@ -156269,12 +156277,12 @@ video {
   }
 
   .xl\:prose {
-    color: #374151;
+    color: #fff;
     max-width: 65ch;
   }
 
   .xl\:prose [class~="lead"] {
-    color: #4b5563;
+    color: #4a5568;
     font-size: 1.25em;
     line-height: 1.6;
     margin-top: 1.2em;
@@ -156282,13 +156290,12 @@ video {
   }
 
   .xl\:prose a {
-    color: #5850ec;
-    text-decoration: none;
-    font-weight: 600;
+    color: #1a202c;
+    text-decoration: underline;
   }
 
   .xl\:prose strong {
-    color: #161e2e;
+    color: #1a202c;
     font-weight: 600;
   }
 
@@ -156308,7 +156315,7 @@ video {
     content: counter(list-counter) ".";
     position: absolute;
     font-weight: 400;
-    color: #6b7280;
+    color: #718096;
   }
 
   .xl\:prose ul > li {
@@ -156319,7 +156326,7 @@ video {
   .xl\:prose ul > li::before {
     content: "";
     position: absolute;
-    background-color: #d2d6dc;
+    background-color: #cbd5e0;
     border-radius: 50%;
     width: 0.375em;
     height: 0.375em;
@@ -156328,7 +156335,7 @@ video {
   }
 
   .xl\:prose hr {
-    border-color: #e5e7eb;
+    border-color: #e2e8f0;
     border-top-width: 1px;
     margin-top: 3em;
     margin-bottom: 3em;
@@ -156337,9 +156344,9 @@ video {
   .xl\:prose blockquote {
     font-weight: 500;
     font-style: italic;
-    color: #161e2e;
+    color: #1a202c;
     border-left-width: 0.25rem;
-    border-left-color: #e5e7eb;
+    border-left-color: #e2e8f0;
     quotes: "\201C""\201D""\2018""\2019";
     margin-top: 1.6em;
     margin-bottom: 1.6em;
@@ -156390,14 +156397,14 @@ video {
   }
 
   .xl\:prose figure figcaption {
-    color: #6b7280;
+    color: #718096;
     font-size: 0.875em;
     line-height: 1.4285714;
     margin-top: 0.8571429em;
   }
 
   .xl\:prose code {
-    color: #161e2e;
+    color: #1a202c;
     font-weight: 600;
     font-size: 0.875em;
   }
@@ -156411,8 +156418,8 @@ video {
   }
 
   .xl\:prose pre {
-    color: #e5e7eb;
-    background-color: #252f3f;
+    color: #e2e8f0;
+    background-color: #2d3748;
     overflow-x: auto;
     font-size: 0.875em;
     line-height: 1.7142857;
@@ -156456,10 +156463,10 @@ video {
   }
 
   .xl\:prose thead {
-    color: #161e2e;
+    color: #1a202c;
     font-weight: 600;
     border-bottom-width: 1px;
-    border-bottom-color: #d2d6dc;
+    border-bottom-color: #cbd5e0;
   }
 
   .xl\:prose thead th {
@@ -156471,7 +156478,7 @@ video {
 
   .xl\:prose tbody tr {
     border-bottom-width: 1px;
-    border-bottom-color: #e5e7eb;
+    border-bottom-color: #e2e8f0;
   }
 
   .xl\:prose tbody tr:last-child {
@@ -156602,10 +156609,6 @@ video {
 
   .xl\:prose > :last-child {
     margin-bottom: 0;
-  }
-
-  .xl\:prose h1, .xl\:prose h2, .xl\:prose h3, .xl\:prose h4 {
-    color: #161e2e;
   }
 
   .xl\:prose-sm {
@@ -157501,12 +157504,12 @@ video {
   }
 
   .xl\:prose {
-    color: #374151;
+    color: #fff;
     max-width: 65ch;
   }
 
   .xl\:prose [class~="lead"] {
-    color: #4b5563;
+    color: #4a5568;
     font-size: 1.25em;
     line-height: 1.6;
     margin-top: 1.2em;
@@ -157514,13 +157517,12 @@ video {
   }
 
   .xl\:prose a {
-    color: #5850ec;
-    text-decoration: none;
-    font-weight: 600;
+    color: #1a202c;
+    text-decoration: underline;
   }
 
   .xl\:prose strong {
-    color: #161e2e;
+    color: #1a202c;
     font-weight: 600;
   }
 
@@ -157540,7 +157542,7 @@ video {
     content: counter(list-counter) ".";
     position: absolute;
     font-weight: 400;
-    color: #6b7280;
+    color: #718096;
   }
 
   .xl\:prose ul > li {
@@ -157551,7 +157553,7 @@ video {
   .xl\:prose ul > li::before {
     content: "";
     position: absolute;
-    background-color: #d2d6dc;
+    background-color: #cbd5e0;
     border-radius: 50%;
     width: 0.375em;
     height: 0.375em;
@@ -157560,7 +157562,7 @@ video {
   }
 
   .xl\:prose hr {
-    border-color: #e5e7eb;
+    border-color: #e2e8f0;
     border-top-width: 1px;
     margin-top: 3em;
     margin-bottom: 3em;
@@ -157569,9 +157571,9 @@ video {
   .xl\:prose blockquote {
     font-weight: 500;
     font-style: italic;
-    color: #161e2e;
+    color: #1a202c;
     border-left-width: 0.25rem;
-    border-left-color: #e5e7eb;
+    border-left-color: #e2e8f0;
     quotes: "\201C""\201D""\2018""\2019";
     margin-top: 1.6em;
     margin-bottom: 1.6em;
@@ -157622,14 +157624,14 @@ video {
   }
 
   .xl\:prose figure figcaption {
-    color: #6b7280;
+    color: #718096;
     font-size: 0.875em;
     line-height: 1.4285714;
     margin-top: 0.8571429em;
   }
 
   .xl\:prose code {
-    color: #161e2e;
+    color: #1a202c;
     font-weight: 600;
     font-size: 0.875em;
   }
@@ -157643,8 +157645,8 @@ video {
   }
 
   .xl\:prose pre {
-    color: #e5e7eb;
-    background-color: #252f3f;
+    color: #e2e8f0;
+    background-color: #2d3748;
     overflow-x: auto;
     font-size: 0.875em;
     line-height: 1.7142857;
@@ -157688,10 +157690,10 @@ video {
   }
 
   .xl\:prose thead {
-    color: #161e2e;
+    color: #1a202c;
     font-weight: 600;
     border-bottom-width: 1px;
-    border-bottom-color: #d2d6dc;
+    border-bottom-color: #cbd5e0;
   }
 
   .xl\:prose thead th {
@@ -157703,7 +157705,7 @@ video {
 
   .xl\:prose tbody tr {
     border-bottom-width: 1px;
-    border-bottom-color: #e5e7eb;
+    border-bottom-color: #e2e8f0;
   }
 
   .xl\:prose tbody tr:last-child {
@@ -157834,10 +157836,6 @@ video {
 
   .xl\:prose > :last-child {
     margin-bottom: 0;
-  }
-
-  .xl\:prose h1, .xl\:prose h2, .xl\:prose h3, .xl\:prose h4 {
-    color: #161e2e;
   }
 
   .xl\:prose-sm {
@@ -165164,6 +165162,10 @@ video {
     --bg-opacity: 0.75;
   }
 
+  .xl\:bg-opacity-85 {
+    --bg-opacity: 0.85;
+  }
+
   .xl\:bg-opacity-100 {
     --bg-opacity: 1;
   }
@@ -165184,6 +165186,10 @@ video {
     --bg-opacity: 0.75;
   }
 
+  .xl\:hover\:bg-opacity-85:hover {
+    --bg-opacity: 0.85;
+  }
+
   .xl\:hover\:bg-opacity-100:hover {
     --bg-opacity: 1;
   }
@@ -165202,6 +165208,10 @@ video {
 
   .xl\:focus\:bg-opacity-75:focus {
     --bg-opacity: 0.75;
+  }
+
+  .xl\:focus\:bg-opacity-85:focus {
+    --bg-opacity: 0.85;
   }
 
   .xl\:focus\:bg-opacity-100:focus {
