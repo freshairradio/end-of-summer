@@ -1,13 +1,6 @@
 <script>
   import { time } from "../time";
   import { onMount } from "svelte";
-  let img;
-  onMount(() => {
-    const handleLoad = (e) => (loaded = true);
-    img.addEventListener("load", handleLoad);
-    img.src = "/img/green.jpg";
-  });
-  let loaded = false;
 </script>
 
 <div
@@ -17,7 +10,7 @@
     class="{loaded ? 'opacity-100' : 'opacity-0'} duration-200 transition-opacity
       text-white bg-black rounded-lg relative h-full block overflow-hidden">
     <img
-      bind:this={img}
+      src="/img/green.jpg"
       alt="Apply for a show"
       class="rounded-t-lg max-w-full h-20 w-full object-cover" />
     <h1 class="text-center text-white text-3xl mt-4 font-hairline max-w-full">
