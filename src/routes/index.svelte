@@ -7,8 +7,8 @@
   class="mt-20 mb-20 text-white rounded-lg max-w-sm relative px-2 mx-auto
     transition-opacity">
   <article
-    class="{loaded ? 'opacity-100' : 'opacity-0'} duration-200 transition-opacity
-      text-white bg-black rounded-lg relative h-full block overflow-hidden">
+    class="duration-200 transition-opacity text-white bg-black rounded-lg
+      relative h-full block overflow-hidden">
     <img
       src="/img/green.jpg"
       alt="Apply for a show"
