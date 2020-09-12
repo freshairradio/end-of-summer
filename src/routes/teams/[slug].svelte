@@ -111,3 +111,4 @@
     </div>
   {/if}
 </div>
+{#each posts as post, i}<a href="/posts/{post.slug}" class="hidden" />{/each}

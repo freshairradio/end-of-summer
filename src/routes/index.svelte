@@ -1,34 +1,44 @@
 <script>
-  import { time } from '../time'
-  import { onMount } from 'svelte'
-  let img
+  import { time } from "../time";
+  import { onMount } from "svelte";
+  let img;
   onMount(() => {
-    const handleLoad = (e) => (loaded = true)
-    img.addEventListener('load', handleLoad)
-    img.src = '/img/friday.jpg'
-  })
-  let loaded = false
+    const handleLoad = (e) => (loaded = true);
+    img.addEventListener("load", handleLoad);
+    img.src = "/img/green.jpg";
+  });
+  let loaded = false;
 </script>
 
 <div
-  class=" mt-20 mb-20 text-white rounded-lg max-w-sm relative px-2 mx-auto
-  transition-opacity">
+  class="mt-20 mb-20 text-white rounded-lg max-w-sm relative px-2 mx-auto
+    transition-opacity">
   <article
-    class="{loaded ? 'opacity-100' : 'opacity-0'} duration-200
-    transition-opacity text-white bg-gray-900 rounded-lg relative h-full">
+    class="{loaded ? 'opacity-100' : 'opacity-0'} duration-200 transition-opacity
+      text-white bg-black rounded-lg relative h-full block overflow-hidden">
     <img
       bind:this={img}
-      alt="Freshair Fridays"
-      class="rounded-t-lg max-w-full" />
-    <h1 class="text-center text-white text-3xl mt-4 font-hairline max-w-full ">
-      Going live {$time}
+      alt="Apply for a show"
+      class="rounded-t-lg max-w-full h-20 w-full object-cover" />
+    <h1 class="text-center text-white text-3xl mt-4 font-hairline max-w-full">
+      Apply for a show!
     </h1>
-    <p class=" pb-4 p-2 px-4 text-lg font-thin">
-      We're taking a short break from our regular broadcast schedule to bring
-      you Freshair Fridays, jam packed with student radio every Friday from 2pm!
+    <p class="p-2 px-4 text-lg font-thin">
+      Show applications for this semester’s FreshAir broadcast schedule are now
+      open. So if you have an idea for a weekly hour on anything from classic
+      tunes to the latest hits, news to sport, or comedy to drama apply now!
+      This year with COVID we’re going to be doing things a little differently
+      and having all our hosts broadcast from home. That means you get to record
+      when you want, where you want, and however you want. What are you waiting
+      for?!
     </p>
-    <div
-      class="absolute bottom-0 p-2 px-4 w-full left-0 text-right text-4xl
-      font-hairline grid grid-flow-col grid-cols-6 items-center" />
+    <a
+      href="https://forms.freshair.org.uk/apply"
+      rel="preload"
+      class="block bg-white text-black p-2 m-4 mt-1 text-xl text-center
+        rounded-lg">
+      Apply now!
+    </a>
+    <div href="/clues" rel="preload" class="" />
   </article>
 </div>

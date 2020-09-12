@@ -16,10 +16,13 @@
 <style>
   :global(html) {
     min-height: 100%;
+    /* background-image: url("/img/green.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
   }
   :global(html),
-  .gradient {
-    background: linear-gradient(to top right, #16bffd, #cb3066);
+  :global(.gradient) {
+    background: linear-gradient(to top right, #23074d, #cc5333);
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -31,7 +34,7 @@
     <div
       transition:fade
       class="fixed w-screen h-screen bg-opacity-85 bg-black pt-20 top-0 left-0
-      z-50"
+        z-50"
       on:click={() => (menuOpen = false)}>
       {#each navigation as link}
         <a
@@ -45,18 +48,17 @@
     </div>
   {/if}
   <div
-    class="gradient fixed lg:hidden bottom-0 left-0 w-full h-14 lg:h-20 z-50" />
+    class="bg-black fixed lg:hidden bottom-0 left-0 w-full h-14 lg:h-20 z-50" />
   <a href="/" rel="preload">
     <div
       class="fixed text-white text-4xl font-hairline bottom-0 lg:bottom-2 left-4
-      cursor-pointer w-auto z-50 h-14 lg:h-16">
-      fresh
-      <b class="-ml-1.5 font-normal">air</b>
+        cursor-pointer w-auto z-50 h-14 lg:h-16">
+      fresh <b class="-ml-1.5 font-normal">air</b>
     </div>
   </a>
   <div
     class="fixed text-white w-10 h-10 lg:w-16 lg:h-16 rotate-180 transform
-    bottom-2 right-4 cursor-pointer z-50"
+      bottom-2 right-4 cursor-pointer z-50"
     on:click={() => (menuOpen = !menuOpen)}>
     <svg viewBox="0 0 20 20" fill="currentColor" className="menu-alt1 w-6 h-6">
       <path
@@ -67,5 +69,4 @@
         clipRule="evenodd" />
     </svg>
   </div>
-
 </main>

@@ -8,7 +8,7 @@
     "build:tailwind": "NODE_ENV=production postcss static/tailwind.css -o static/index.css",
     "dev": "sapper dev",
     "build": "npm run build:tailwind && sapper build --legacy",
-    "export": "node cache/preload.js && npm run build:tailwind && sapper export --legacy",
+    "export": "npm run build:tailwind && sapper export --legacy --entry '/about /teams/music /teams/arts /teams/news /teams/music /get-involved /meet-the-teams /kahoot'",
     "start": "node __sapper__/build",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
@@ -23,8 +23,7 @@
     "polka": "next",
     "postcss-cli": "^7.1.1",
     "sirv": "^1.0.0",
-    "tailwindcss": "^1.6.1",
-    "uigradients": "^1.0.0"
+    "tailwindcss": "^1.6.1"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",

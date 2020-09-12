@@ -1,0 +1,43 @@
+<script>
+  import Heading from "../components/Heading.svelte";
+  import { fade } from "svelte/transition";
+  import { onMount } from "svelte";
+</script>
+
+<style>
+  .prose h2 {
+    color: white;
+  }
+</style>
+
+<div class="duration-200 transition-opacity">
+  <div
+    class="top-0 left-0 fixed w-screen h-screen bg-opacity-25 bg-black pt-20" />
+  <h1
+    class="text-white text-4xl bg-black font-hairline fixed top-0 right-0 py-2
+      px-4 w-screen text-right bg-opacity-75 z-30">
+    kahoot <b class="font-normal">quiz</b>
+  </h1>
+  <div
+    class="prose sm:prose-lg px-4 mt-40 mb-40 relative z-10 text-white font-thin
+      mx-auto">
+    <h2>Coming soon...</h2>
+    <p>
+      It's time to test your radio knowledge! With questions compiled by our
+      committee members, come along to our live online quiz.
+    </p>
+    <p>
+      Come back at <strong style="color:white">2pm</strong> on <strong
+        style="color:white">Tuesday, September 15th</strong> for the link
+    </p>
+    <!-- <a
+      href="https://forms.freshair.org.uk/apply"
+      rel="preload"
+
+      style="color:white;text-decoration:none"
+      class="block bg-black text-white p-2 m-4 mt-1 text-xl text-center
+        rounded-lg">
+      Watch on YouTube Live
+    </a> -->
+  </div>
+</div>
