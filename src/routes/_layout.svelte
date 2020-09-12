@@ -52,8 +52,11 @@
   <a href="/" rel="preload">
     <div
       class="fixed text-white text-4xl font-hairline bottom-0 lg:bottom-2 left-4
-        cursor-pointer w-auto z-50 h-14 lg:h-16">
-      fresh <b class="-ml-1.5 font-normal">air</b>
+        cursor-pointer w-auto z-50 h-14 lg:h-16 flex items-center">
+      <img
+        src="/img/FreshairWhiteLogo.png"
+        class="h-10 w-10 items-center justify-center my-auto mr-2" /> fresh<b
+        class="font-normal">air</b>
     </div>
   </a>
   <div
