@@ -26,7 +26,7 @@
       for?!
     </p>
     <a
-      href="https://forms.freshair.org.uk/apply"
+      href="https://forms.freshair.radio/apply"
       rel="preload"
       class="block bg-white text-black p-2 m-4 mt-1 text-xl text-center
         rounded-lg">

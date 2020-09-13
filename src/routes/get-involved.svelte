@@ -47,13 +47,13 @@
       We'd love to have you involved! There are loads of ways to get involved
       with FreshAir, from presenting a show to managing music tech. To apply for
       a show, go to <a
-        href="https://forms.freshair.org.uk/apply">freshair.radio/apply</a>. If
+        href="https://forms.freshair.radio/apply">freshair.radio/apply</a>. If
       you're interested or you want to know more, get in touch on <a
         href="https://fb.me/freshairradio">Facebook</a> , <a
         href="https://www.instagram.com/freshairradio/">Instagram</a> , or <a
         href="https://twitter.com/freshairradio">Twitter</a> , or send an email to
-      <a href="mailto:manager@freshair.org.uk">manager@freshair.org.uk</a> . You
-      can also use this handy form!
+      <a href="mailto:manager@freshair.radio">manager@freshair.org.uk</a> . You can
+      also use this handy form!
     </p>
     {#if !done}
       <input
