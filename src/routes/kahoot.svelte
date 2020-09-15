@@ -21,14 +21,10 @@
   <div
     class="prose sm:prose-lg px-4 mt-40 mb-40 relative z-10 text-white font-thin
       mx-auto">
-    <h2>Coming soon...</h2>
+    <h2>It's Quiz time!</h2>
     <p>
       It's time to test your radio knowledge! With questions compiled by our
-      committee members, come along to our live online quiz.
-    </p>
-    <p>
-      Come back at <strong style="color:white">2pm</strong> on <strong
-        style="color:white">Tuesday, September 15th</strong> for the link
+      committee members, come along to our online quiz.
     </p>
     <a
       href="https://kahoot.it/challenge/08159539?challenge-id=4fbfc50c-c471-45ec-9795-6543bf885092_1600173956628"
