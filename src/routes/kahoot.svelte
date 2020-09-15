@@ -30,14 +30,13 @@
       Come back at <strong style="color:white">2pm</strong> on <strong
         style="color:white">Tuesday, September 15th</strong> for the link
     </p>
-    <!-- <a
-      href="https://forms.freshair.org.uk/apply"
+    <a
+      href="https://kahoot.it/challenge/08159539?challenge-id=4fbfc50c-c471-45ec-9795-6543bf885092_1600173956628"
       rel="preload"
-
       style="color:white;text-decoration:none"
       class="block bg-black text-white p-2 m-4 mt-1 text-xl text-center
         rounded-lg">
-      Watch on YouTube Live
-    </a> -->
+      Get started
+    </a>
   </div>
 </div>
