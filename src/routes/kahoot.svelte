@@ -23,8 +23,8 @@
       mx-auto">
     <h2>It's Quiz time!</h2>
     <p>
-      It's time to test your radio knowledge! With questions compiled by our
-      committee members, come along to our online quiz.
+      It's time to test your knowledge! With questions compiled by our committee
+      members, come along to our online quiz.
     </p>
     <a
       href="https://kahoot.it/challenge/08159539?challenge-id=4fbfc50c-c471-45ec-9795-6543bf885092_1600173956628"
