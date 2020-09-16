@@ -21,25 +21,20 @@
   <div
     class="prose sm:prose-lg px-4 mt-40 mb-40 relative z-10 text-white font-thin
       mx-auto">
-    <h2>Coming soon...</h2>
+    <h2>Tune in now!</h2>
     <p>
       Want to get involved in student radio? Heard of Freshair but want to know
       more? This is the event for you! Come hear from our Arts, Music, Sports,
       News, and Production teams and find out how you can get involved!
     </p>
-    <p>
-      Tune in at <strong style="color:white">2pm</strong> on <strong
-        style="color:white">Wednesday, September 16th</strong> for the YouTube live
-      link
-    </p>
-    <!-- <a
-      href="https://forms.freshair.org.uk/apply"
-      rel="preload"
 
+    <a
+      href="https://youtu.be/rAEbFOEalkU"
+      rel="preload"
       style="color:white;text-decoration:none"
       class="block bg-black text-white p-2 m-4 mt-1 text-xl text-center
         rounded-lg">
       Watch on YouTube Live
-    </a> -->
+    </a>
   </div>
 </div>
