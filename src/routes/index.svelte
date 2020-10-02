@@ -3,8 +3,17 @@
   import { onMount } from "svelte";
 </script>
 
+<h1 class="text-2xl text-center mt-10 text-white">
+  It's World College Radio Day! Listen in to the UK's contribution now
+</h1>
+<div class="text-center mt-6">
+  <audio
+    class="inline-block"
+    controls
+    src="https://cdn.freshair.radio/wcrd/wcrd.mp3" />
+</div>
 <div
-  class="mt-20 mb-20 text-white rounded-lg max-w-sm relative px-2 mx-auto
+  class="mt-10 mb-20 text-white rounded-lg max-w-sm relative px-2 mx-auto
     transition-opacity">
   <article
     class="duration-200 transition-opacity text-white bg-black rounded-lg
